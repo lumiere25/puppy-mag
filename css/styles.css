@@ -151,29 +151,30 @@ a:hover {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
-/* .testimonials {
-  display: flex;
-  margin-left: 70px;
-
- padding-top: -90px;
- margin: 100px;
- 
+/* Container */
+.testimonials {
+ margin-right: 130px;
+ padding-top: 30px;
  align-items: center;
  justify-content: center;
 
-} */
+}
 
 .testimonials div {
   align-items: center;
-  margin: 20px;
-  padding-left:100px;
+  padding-left:20px;
 
+}
+
+.testimonial_wrapper {
+ display: flex;
+ /* flex-direction: column; */
+ margin-left: 50px; 
 }
 
 
 .texts {
-width: 30%;
+width:50%;
 text-align: center;
 padding-top: 20px;
 }
@@ -185,6 +186,7 @@ padding-top: 20px;
   height: 180px;
   width: 180px;
   margin-left: 100px;
+
  
 
 }
@@ -194,7 +196,6 @@ padding-top: 20px;
   border: 2px solid purple;
   height: 190px;
   width: 180px;
-  margin-left: 100px;
-  
+  margin-left: 200px;  
   
 }
