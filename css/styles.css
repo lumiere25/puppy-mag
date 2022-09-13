@@ -1,0 +1,200 @@
+body {
+background: url('/img/background\ 3.png') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+opacity: o.2;
+
+}
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  height: 15%;
+  width: 15%;
+  border: solid  rgb(188, 188, 214);
+  border-radius: 50%;
+  padding: 18px;
+}
+
+.logo {
+  margin: 5px;
+}
+
+
+
+.header_container {
+  border-bottom: solid rgb(99, 52, 107);
+  opacity: 5px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  background-color: rgb(110, 92, 125);
+  
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 30px 10px;
+  
+}
+
+
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.container {
+  border: solid rgb(95, 61, 106);
+  background-color: rgb(138, 115, 177);
+  border-radius: 19px;
+  width: 50%;
+  padding: 30px;
+  margin: auto;
+}
+
+.text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+
+a:hover {
+ color: rgb(103, 103, 189);
+}
+
+
+.item_links {
+  
+  border: 2px solid  rgb(95, 61, 106);
+  border-radius: 19px;
+  background-color: rgb(138, 115, 177);
+  width: 30%;
+  padding: 40px;
+  margin: 80px;
+}
+
+.item-1 {
+ color:#fff;
+ text-align: center;
+}
+
+.item-2 {
+  color:#fff;
+  text-align: center;
+}
+
+.btn {
+  margin: 10px;
+  padding: 5px 10px;
+  border-color: rgb(176, 48, 106);
+  background-color: rgb(67, 23, 30);
+  color:#fff;
+}
+
+.blog {
+  position: relative;
+  top: -500px;
+  left: 130px;
+  width: 100%;
+  margin-left:700px;
+
+}
+
+.blog_items {
+ margin-top: 50px; 
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 25px;
+ color: rgb(84, 70, 96);
+ margin-left: 160px;
+ /* padding-top: 5px; */
+}
+
+
+
+.contact {
+  margin-left: 160px;
+  color:rgb(40, 33, 46);
+}
+
+#image {
+  width: 34%;
+  background-color: rgb(110, 92, 125);
+}
+
+.work {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* .testimonials {
+  display: flex;
+  margin-left: 70px;
+
+ padding-top: -90px;
+ margin: 100px;
+ 
+ align-items: center;
+ justify-content: center;
+
+} */
+
+.testimonials div {
+  align-items: center;
+  margin: 20px;
+  padding-left:100px;
+
+}
+
+
+.texts {
+width: 30%;
+text-align: center;
+padding-top: 20px;
+}
+
+
+
+.reviewers {
+  border: 2px solid purple;
+  height: 180px;
+  width: 180px;
+  margin-left: 100px;
+ 
+
+}
+
+
+.reviewers_image {
+  border: 2px solid purple;
+  height: 190px;
+  width: 180px;
+  margin-left: 100px;
+  
+  
+}
