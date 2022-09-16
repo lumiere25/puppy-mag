@@ -40,7 +40,7 @@ img {
   opacity: 5px;
   margin-top: 30px;
   margin-bottom: 80px;
-  width: 103%;
+  width: 101%;
   background-color: rgb(110, 92, 125);
   
 }
@@ -139,7 +139,7 @@ a:hover {
 
 
 .contact {
-  margin-left: 160px;
+  margin-left: 125px;
   color:rgb(40, 33, 46);
 }
 
@@ -211,6 +211,7 @@ article {
 
  .footer_container {
    margin-top: 500px;
+   margin-left: -10px;
  }
 
  footer {
@@ -236,7 +237,8 @@ h5 {
 
 .article_wrapper {
   position: absolute;
-  margin-top: 5px;
+  margin-top: 8px;
+  margin-left: -10px;
   border: solid 1px;
   width: 110%;
   background-color: rgb(110, 92, 125);
