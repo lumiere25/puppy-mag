@@ -1,3 +1,18 @@
+/* :root {
+  --desktop: 1200px;
+  --laptop:  1024;
+  --tablet: 768;
+  --phone: 480px;
+} */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
 body {
 background: url('/img/background\ 3.png') no-repeat center center fixed;
 -webkit-background-size: cover;
@@ -10,12 +25,6 @@ opacity: o.2;
 
 
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-
-}
 
 h1 {
   text-align: center;
@@ -44,6 +53,53 @@ img {
   background-color: rgb(110, 92, 125);
   
 }
+
+
+@media (min-width: 487px) and (max-width: 897px) {
+  .header_container {
+   display: flex;
+   flex-direction: column;
+
+  }
+  li a {
+    margin-right: 20px;
+    display: inline-block;
+}
+}
+
+ @media (min-width: 50em) {
+   .container {
+     flex-direction: column;
+   }
+ }
+
+@media (max-width: 480px) {
+  .testimonials {
+    display: block ;
+  }
+}
+
+
+
+/* @media (max-width: 480px) {
+
+  .container {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+} */
+
+/* @media screen and (min-width: 480px) {
+
+  body {
+    background-color: black;
+    
+  }
+} */
+
+
 
 
 header {
@@ -86,7 +142,7 @@ header {
 
 
 a:hover {
- color: rgb(103, 103, 189);
+ color: rgb(66, 34, 71);
 }
 
 
@@ -117,6 +173,17 @@ a:hover {
   background-color: rgb(67, 23, 30);
   color:#fff;
 }
+
+.btn:hover {
+  background-color: rgb(176, 48, 106);
+  cursor: pointer;
+}
+
+.btn_btn:hover {
+  background-color: rgb(138, 115, 177);
+  cursor: pointer;
+}
+
 
 .blog {
   position: relative;
@@ -153,9 +220,59 @@ a:hover {
 }
 
 
+.form_container {
+ display: flex;
+ flex-direction: column;
+ padding: 10px 10px;
+ width: 30%; 
+ align-items: center;
+ margin: 15px;
+ margin-left: 35%;
+ border: 2px solid rgb(107, 86, 132);
+ background-color: rgb(167, 139, 202);
+}
+
+.h2-text {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.services {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+label input {
+  display: block;
+}
+
+input {
+  width: 90%;
+}
+
+button {
+  padding-top: 5px;
+  width: 20%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgb(95, 71, 125);
+  color: #fff;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 80%;
+  margin-left: 40px;
+}
+
+
+
 .testimonials {
- margin-top: 80px;
- margin-right: 130px;
+ margin-top: 150px;
+ margin-right: 170px;
  padding-top: -900px;
  align-items: center;
  justify-content: center;
@@ -237,7 +354,7 @@ h5 {
 
 .article_wrapper {
   position: absolute;
-  margin-top: 8px;
+  margin-top: 55px;
   margin-left: -10px;
   border: solid 1px;
   width: 110%;
